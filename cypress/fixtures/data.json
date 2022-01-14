@@ -1,0 +1,19 @@
+{
+  "homePageTittle": "Povio",
+  "h3Text": "Welcome",
+  "username": "Automation",
+  "password": "automation",
+  "firstName": "FirstName",
+  "lastName": "LastName",
+  "email": "email@sample.com",
+  "povioURL": "https://povio-at.herokuapp.com/",
+  "emailTakenMessage": "Email has already been taken",
+  "signUpSuccessfulMessage": "Welcome! You have signed up successfully.",
+  "signOutSuccessfulMessage": "Signed out successfully.",
+  "signedInSuccessfullyMessage": "Signed in successfully.",
+  "campaignName": "Campaign Name",
+  "campaignDescription": "Campaign Description",
+  "campaignCreatedMessage": "Campaign was successfully created.",
+  "campaignDestroyedMessage": "Campaign was successfully destroyed.",
+  "campaignUpdatedMessage": "Campaign was successfully updated."
+}

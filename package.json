@@ -1,19 +1,21 @@
 {
-  "name": "povioproject",
+  "name": "cypress-framework",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cypress Framework Template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "health-check": "cypress run --spec cypress/integration/tools/healthCheck.specs.js",
+    "test": "cypress run",
+    "format": "prettier --write ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jasarspahicedin/povioProject.git"
-  },
-  "author": "",
+  "author": "Edin Jasarspahic",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jasarspahicedin/povioProject/issues"
+  "dependencies": {
   },
-  "homepage": "https://github.com/jasarspahicedin/povioProject#readme"
+  "devDependencies": {
+    "cypress": "^9.2.0",
+    "cypress-file-upload": "^3.5.3",
+    "cypress-xpath": "^1.4.0",
+    "prettier": "2.5.1"
+  }
 }
